@@ -28,6 +28,7 @@
 **注意事项**
 `setUserVisibleHint`方法，在`onCreateView`之前调用
 如果在`setUserVisibleHint`,操作`View`（显示Loading）可能会出现空指针，因为还没有创建View所以要考虑在onCreateView之后
+
 ![setUserVisibleHint 生命周期关系](http://ww4.sinaimg.cn/large/65e4f1e6jw1fabkfu02joj20gk0fe79l.jpg)
 
 
